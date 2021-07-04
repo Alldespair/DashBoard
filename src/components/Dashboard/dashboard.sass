@@ -1,0 +1,65 @@
+.table
+    max-width: 1400px
+    width: 100%
+    margin-bottom: 60px
+    @media only screen and (min-width : 768px)
+        margin-top: 0
+        margin-top: 100px
+    .table__header
+        height: 50px
+        display: none
+        font-size: 24px
+        background-color: #ffffff
+        @media only screen and (min-width : 768px)
+            display: table-header-group
+        .table__header__row
+            .table__header__col
+
+    .table__body
+        font-size: 20px
+        @media only screen and (min-width : 768px)
+            display: contents
+
+        .table__body__row
+            display: flex
+            flex-direction: column
+            text-align: left
+            padding: 10px
+            background-color: #ffffff
+            border-top: 2px solid #d8edfd
+            border-bottom: 2px solid #d8edfd
+            margin: 5px
+            &:nth-child(odd)
+                background-color: #f4f9ff
+            @media only screen and (min-width : 768px)
+                width: 100%
+                display: table-row
+                text-align: center
+            .table__body__col
+                padding: 8px 0
+                .table__body__col__title
+                    display: inline-block
+                    width: 100px
+                    @media only screen and (min-width : 768px)
+                        display: none
+            .table__buttons
+                margin: 15px 0 15px
+                .table__button
+                    background-color: inherit
+                    border-radius: 3px
+                    transition-duration: 0.3s 
+                    svg
+                        width: 30px
+                        height: 30px
+                        @media only screen and (min-width : 768px)
+                            margin: 0 10px
+                .table__button--edit
+                    &:hover
+                        color: #93cffd
+
+                .table__button--delete
+                    margin: 0 10px
+                    &:hover
+                        color: #ff9292
+                    @media only screen and (min-width : 768px)
+                        margin: 0

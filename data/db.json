@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "title": "Loard of the Rings",
+      "author": "J. R. R. Tolkien",
+      "category": "Historical",
+      "isbn": "1234567899",
+      "id": 8
+    },
+    {
+      "title": "Mort",
+      "author": "Terry Pratchett",
+      "category": "Historical",
+      "isbn": "1234567898",
+      "id": 9
+    },
+    {
+      "title": "1Q84",
+      "author": "Haruki Murakami",
+      "category": "Historical",
+      "isbn": "1236547890",
+      "id": 19
+    }
+  ]
+}

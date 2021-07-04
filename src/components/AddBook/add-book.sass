@@ -1,0 +1,64 @@
+.add-book
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  color: #ffffff
+  .form
+    max-width: 500px
+    width: 90%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    background-color: #6b7d8d
+    padding: 10%
+    border-radius: 5px
+    label
+      font-size: 20px
+      font-weight: bold
+      letter-spacing: 3px
+      margin-bottom: 5px
+    input
+      font-size: 20px
+      background: none
+      color: inherit
+      border: none
+      padding: 5px 0
+      border-bottom: 2px solid #e5dff5
+      margin-bottom: 10px
+      &:focus
+        outline: none
+    select
+      font-size: 20px
+      color: inherit
+      background: none
+      border: none
+      margin-bottom: 10px
+    button
+      font-size: 20px
+      color: #5b6479
+      padding: 10px 0
+      border-radius: 3px
+      &:hover
+        background-color: #c2cbdd
+
+.modal__header
+  font-size: 24px
+  text-align: center
+.modal__buttons
+  width: 100%
+  display: flex
+  button
+    display: block
+    width: 100px
+    font-size: 20px
+    background-color: #8aabb4
+    color: #ffffff
+    border-radius: 3px
+    margin: 0 auto
+    transition-duration: 0.3s
+    &:hover
+      background-color: #5b6479
+    &:nth-child(2):hover
+      background-color: #ff9292
